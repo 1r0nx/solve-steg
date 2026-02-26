@@ -1,7 +1,8 @@
 # StegSolve-like (Python)
 
 A small Python tool that reproduces many features of **StegSolve** on Linux.  
-It generates multiple image transformations useful for **steganography analysis** and **CTF challenges**.
+It generates multiple image transformations useful for ** steganography analysis** and **CTF challenges**.  
+You can easily browser through the generated files
 
 The tool extracts bit planes, color channels, XOR combinations, LSB data, and other useful visualizations.
 
@@ -94,7 +95,8 @@ Alpha channel bit planes but inverted:
 
 Install dependencies:
 
-    `git clone <this repo>`
+    git clone https://github.com/1r0nx/solve-steg.git
+    cd solve-steg
     pip install -r req.txt
 
 ---
@@ -108,7 +110,8 @@ With -o options not specified, it will create a directory `_planes`
     python3 solve-steg.py image.png 
 
 
- You can copy in /usr/bin and run it like a normal command
+ You can copy 'solve-steg.py' in /usr/bin and run it like a normal command
+ 
 	`solve-steg.py imag.png` 
 
 Specify output directory:
