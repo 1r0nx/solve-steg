@@ -97,7 +97,7 @@ Install dependencies:
 
     git clone https://github.com/1r0nx/solve-steg.git
     cd solve-steg
-    pip install -r req.txt
+    pip install -r requirements.txt
 
 ---
 
